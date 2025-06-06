@@ -1,0 +1,176 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "obtener-títulos-de-películas-de-suspenso;navegar-a-netflix-y-extraer-información",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Navegar a Netflix y extraer información",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 473451899
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 506177200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "el usuario abre Netflix y se loguea",
+            "match": {
+              "location": "features\\step-definitions\\netflix.steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15254750699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "maximiza la pantalla",
+            "match": {
+              "location": "features\\step-definitions\\netflix.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53272499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "imprime los títulos de tres películas de suspenso y la URL actual",
+            "match": {
+              "location": "features\\step-definitions\\netflix.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 429100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 379037799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 240167900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "obtener-títulos-de-películas-de-suspenso",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Obtener títulos de películas de suspenso",
+    "tags": [],
+    "uri": "features\\1_netflix.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "iniciar-sesión-en-gmail-desde-móvil;login-exitoso-en-gmail-desde-móvil",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Login exitoso en Gmail desde móvil",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 463785199
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 545411500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "el usuario abre Gmail desde un dispositivo móvil y se loguea",
+            "match": {
+              "location": "features\\step-definitions\\gmail.steps.js:21"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 31680873799,
+              "error_message": "page.waitForSelector: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[type=\"password\"]:not([aria-hidden=\"true\"])') to be visible\u001b[22m\n\n    at LoginGmail.perform (C:\\Users\\Usuario\\Downloads\\Automatización y Navegación en Netflix y Gmail\\src\\tasks\\LoginGmail.js:16:16)\n    at async World.<anonymous> (C:\\Users\\Usuario\\Downloads\\Automatización y Navegación en Netflix y Gmail\\features\\step-definitions\\gmail.steps.js:22:3)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "imprime el mensaje de inicio de sesión exitoso",
+            "match": {
+              "location": "features\\step-definitions\\gmail.steps.js:25"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 265874100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 200820700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "iniciar-sesión-en-gmail-desde-móvil",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Iniciar sesión en Gmail desde móvil",
+    "tags": [],
+    "uri": "features\\2_gmail.feature"
+  }
+]
